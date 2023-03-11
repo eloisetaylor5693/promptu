@@ -1,11 +1,11 @@
 terraform {
-  cloud {
-    organization = "sanyia"
+    cloud {
+        organization = "Promptu-ET"
 
-    workspaces {
-      name = "promptu"
+        workspaces {
+            name = "promptu"
+        }
     }
-  }
 
   required_providers {
     fly = {
